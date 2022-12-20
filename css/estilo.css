@@ -15,7 +15,7 @@ body {
 }
 
 .navbar-nav, .nav-item, .nav-link:hover {
-	color: rgb(255, 255, 255)!important;
+	color: rgb(165, 138, 87)!important;
 }
 
 .slide {
@@ -24,7 +24,6 @@ body {
 	font-family: 'Anek Latin', sans-serif;
 	padding-top: 20rem;
 	padding-bottom: 22rem;
-	filter: brightness(85%)
 }
 
 .img-thumbnail {
