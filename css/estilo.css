@@ -18,12 +18,15 @@ body {
 	color: rgb(165, 138, 87)!important;
 }
 
-.slide {
-	background-image: url("../images/piso2.jpg");
-	background-size: cover; 
-	font-family: 'Anek Latin', sans-serif;
-	padding-top: 20rem;
-	padding-bottom: 22rem;
+#carouselExampleCaptions {
+	object-fit: contain!important;
+	background-size: contain!important;
+	width: 100%!important;
+	height: auto!important;
+}
+
+.carousel-item {
+	transition: transform 0.01s ease-out !important;
 }
 
 .img-thumbnail {
@@ -65,6 +68,7 @@ span {
 	text-align: justify;
 }
 
+
 /* Media Queries */
 
 /* Extra small devices (portrait phones, less than 576px)*/
@@ -83,8 +87,6 @@ span {
 
 		padding:2rem!important;
 	}
-
-
 
 }
 
@@ -113,15 +115,37 @@ span {
 		font-size: 1.8rem;
 	}
 
-	
-	
  }
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-
-	
- }
+	@media (min-width : 992px) {
+	.offcanvas {
+	  visibility      : visible;
+	  position        : relative;
+	  background      : none;
+	  border          : none;
+	  justify-content : end;
+	  color           : #5d4e46!important;
+	}
+  }
+  
+ 	 @media (max-width : 992px) {
+	.offcanvas {
+	  width : 250px !important;
+	}
+  
+	.offcanvas-start-lg {
+	  top          : 0;
+	  left         : 0;
+	  border-right : 1px solid rgba(0, 0, 0, .2);
+	  transform    : translateX(-100%);
+	}
+  
+  }
+  
+	.navbar-nav li a {
+	color: white !important;
+  }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {}
@@ -157,3 +181,5 @@ img.height {
 	align-items: center!important;
 	gap: 5rem!important;
 }
+
+
