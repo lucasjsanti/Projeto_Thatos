@@ -42,7 +42,6 @@ body {
 	font-weight: 600;
 	text-align: center;
 	color: white;
-	margin-top: 3rem;;
 }
 
 .tituloServico {
@@ -68,7 +67,6 @@ span {
 	text-align: justify;
 }
 
-
 /* Media Queries */
 
 /* Extra small devices (portrait phones, less than 576px)*/
@@ -88,6 +86,10 @@ span {
 		padding:2rem!important;
 	}
 
+	.fontsize {
+
+		font-size:2rem!important ;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up)*/
