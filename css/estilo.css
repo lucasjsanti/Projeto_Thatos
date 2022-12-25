@@ -19,15 +19,22 @@ body {
 }
 
 #carouselExampleCaptions {
-	object-fit: contain!important;
-	background-size: contain!important;
+	object-fit: cover!important;
+	background-size: cover!important;
 	width: 100%!important;
-	height: auto!important;
+	height: 100%!important;
 }
 
 .carousel-item {
-	transition: transform 0.01s ease-out !important;
+	transition: transform 0.1s ease-out !important;
 }
+
+.opacidade, img {
+
+	filter: opacity(0.8);
+	z-index: 2;
+}
+
 
 .img-thumbnail {
 	border: none!important;
@@ -89,6 +96,12 @@ span {
 	.dev-title {
 
 		font-size: xx-small!important;
+	}
+
+	.fontsize {
+
+		font-weight: 500;
+		font-size: 0.99rem!important;
 	}
 }
 
