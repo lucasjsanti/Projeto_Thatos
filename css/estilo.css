@@ -184,6 +184,11 @@ img.height {
 	opacity: 0.7;
 }
 
+.effect-hover:hover {
+
+	opacity: 0.6;
+}
+
 .card_1 {
 
 	border-radius: 0.25rem!important;
