@@ -22,7 +22,7 @@ body {
 	object-fit: cover!important;
 	background-size: cover!important;
 	width: 100%!important;
-	height: 100%!important;
+	height: 50%!important;
 }
 
 .carousel-item {
@@ -71,6 +71,13 @@ span {
 	font-weight: 300;
 	font-size: 1.5rem;
 	text-align: justify;
+}
+
+.Maps, iframe {
+
+	width: 100%!important;
+	height: 50rem;
+
 }
 
 /* Media Queries */
@@ -172,9 +179,9 @@ img.height {
 }
 
 .card:hover {
-	border: 3px solid #ffff!important;
 	border-radius: 0.25rem!important;
 	cursor: pointer;
+	opacity: 0.7;
 }
 
 .card_1 {
