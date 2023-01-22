@@ -49,6 +49,7 @@ body {
 	font-weight: 600;
 	text-align: center;
 	color: white;
+	text-transform: uppercase;
 }
 
 .tituloServico {
@@ -61,15 +62,15 @@ body {
 
 p {
 	font-family: 'Bellota Text', cursive;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 1.5rem;
 	text-align: justify;
-	color: rgb(3, 3, 3);
+	color: #0000;
 }
 
 span {
 	font-family: 'Bellota Text', cursive;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 1.5rem;
 	text-align: justify;
 }
