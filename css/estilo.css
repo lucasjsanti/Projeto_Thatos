@@ -8,7 +8,7 @@ body {
 }
 
 .navbar {
-	font-family: 'Bellota Text', cursive;
+	font-family: 'Nunito', sans-serif;
 	font-size: 1.2rem;
 	display: inline-flex!important;
 	cursor: pointer;
@@ -45,30 +45,31 @@ body {
 }
 
 .tituloSecao {
-	font-family:'Bellota Text', cursive;
-	font-weight: 600;
+	font-family:'Nunito', sans-serif;
+	font-weight: 700;
 	text-align: center;
 	text-transform: uppercase;
 }
 
 .tituloServico {
 
-	font-family:'Bellota Text', cursive;
+	font-family:'Nunito', sans-serif;
 	font-weight: 600;
 	font-size: 1.8rem;
 	text-align: center;
 }
 
 p {
-	font-family: 'Bellota Text', cursive;
+	font-family: 'Nunito', sans-serif;
 	font-weight: 400;
 	font-size: 1.5rem;
 	text-align: justify;
 	color: #000;
+	letter-spacing: 0.2;
 }
 
 span {
-	font-family: 'Bellota Text', cursive;
+	font-family: 'Nunito', sans-serif;
 	font-weight: 400;
 	font-size: 1.5rem;
 	text-align: justify;
@@ -79,6 +80,19 @@ span {
 	width: 100%!important;
 	height: 50rem;
 
+}
+
+h1, h5 {
+
+	font-family: 'Nunito', sans-serif!important;
+	font-weight: 600!important;
+}
+
+a {
+	font-family: 'Nunito', sans-serif;
+	text-decoration: none!important;
+	color: #000!important;
+	font-weight: 400!important;
 }
 
 /* Media Queries */
