@@ -71,6 +71,14 @@ body {
 	color:#39271e!important;
 }
 
+.icons {
+
+	font-size: 3rem!important;
+	display: flex!important;
+	justify-content: center!important;
+	color: #ffff!important;
+}
+
 p {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
