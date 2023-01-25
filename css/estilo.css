@@ -8,7 +8,7 @@ body {
 }
 
 .navbar {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 1.2rem;
 	display: inline-flex!important;
 	cursor: pointer;
@@ -45,7 +45,7 @@ body {
 }
 
 .tituloSecao {
-	font-family:'Nunito', sans-serif;
+	font-family:'Montserrat', sans-serif;
 	font-weight: 700;
 	text-align: center;
 	text-transform: uppercase;
@@ -53,23 +53,22 @@ body {
 
 .tituloServico {
 
-	font-family:'Nunito', sans-serif;
+	font-family:'Montserrat', sans-serif!important;
 	font-weight: 600;
 	font-size: 1.8rem;
 	text-align: center;
 }
 
 p {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 1.5rem;
 	text-align: justify;
-	color: #000;
 	letter-spacing: 0.2;
 }
 
 span {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 1.5rem;
 	text-align: justify;
@@ -84,15 +83,20 @@ span {
 
 h1, h5 {
 
-	font-family: 'Nunito', sans-serif!important;
+	font-family: 'Montserrat', sans-serif!important;
 	font-weight: 600!important;
 }
 
-a {
-	font-family: 'Nunito', sans-serif;
+footer a {
+	font-family: 'Montserrat', sans-serif;
 	text-decoration: none!important;
-	color: #000!important;
+	color: #ffff!important;
 	font-weight: 400!important;
+}
+
+a {
+	color: #000!important;
+	text-decoration: none;
 }
 
 /* Media Queries */
@@ -124,6 +128,18 @@ a {
 		font-weight: 500;
 		font-size: 0.99rem!important;
 	}
+
+	.email-small {
+
+		font-size: medium!important;
+	}
+
+	.address-small {
+
+		font-size: medium!important;
+
+	}
+	
 }
 
 /* Small devices (landscape phones, 576px and up)*/
