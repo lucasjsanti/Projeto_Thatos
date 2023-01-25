@@ -48,15 +48,27 @@ body {
 	font-family:'Montserrat', sans-serif;
 	font-weight: 700;
 	text-align: center;
-	text-transform: uppercase;
+	font-size: 3rem;
+}
+
+.tituloSecao-1 {
+	font-family:'Montserrat', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	color: #39271e;
+	font-size: 1.9rem;
 }
 
 .tituloServico {
 
 	font-family:'Montserrat', sans-serif!important;
 	font-weight: 600;
-	font-size: 1.8rem;
 	text-align: center;
+}
+
+.corDestaque {
+
+	color:#39271e!important;
 }
 
 p {
@@ -66,6 +78,21 @@ p {
 	text-align: justify;
 	letter-spacing: 0.2;
 }
+
+.p-footer {
+
+	font-size: 1.3rem!important;
+	font-weight: 400!important;
+	color: #ffff!important;
+	margin: 0px;
+
+}
+
+footer i {
+
+	color:#C1A996;
+}
+
 
 span {
 	font-family: 'Montserrat', sans-serif;
@@ -84,7 +111,12 @@ span {
 h1, h5 {
 
 	font-family: 'Montserrat', sans-serif!important;
-	font-weight: 600!important;
+	font-weight: 400!important;
+}
+
+h2 {
+
+	color: #000!important;
 }
 
 footer a {
@@ -97,6 +129,22 @@ footer a {
 a {
 	color: #000!important;
 	text-decoration: none;
+}
+
+.card {
+
+	width: 30rem!important;
+	background: #181818!important;
+}
+
+.card-text {
+	color: #ffff!important;
+	font-weight: 400!important;
+}
+
+.card-title {
+
+	font-size: 1.8rem!important;
 }
 
 /* Media Queries */
