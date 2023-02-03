@@ -19,12 +19,7 @@ body {
 	color: rgb(165, 138, 87)!important;
 }
 
-#carouselExampleCaptions {
-	object-fit: cover!important;
-	background-size: cover!important;
-	width: 100%!important;
-	height: 50%!important;
-}
+
 
 .carousel-caption {
 	display: flex!important;
@@ -32,8 +27,8 @@ body {
 	align-items: center!important;
 	align-self: center!important;
 	top: 4rem!important;
+	bottom: 0.01rem!important;
 	flex-direction: column!important;
-
 }
 
 .carousel-item {
@@ -316,5 +311,3 @@ img.height {
 	align-items: center!important;
 	gap: 5rem!important;
 }
-
-
