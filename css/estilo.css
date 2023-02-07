@@ -134,12 +134,14 @@ h1 {
 	text-transform: uppercase;
 	font-weight: 600!important;
 	padding: 0.6rem!important;
+	font-size: 2.5rem!important;
 }
 
 .text-slide {
 
 	background: #b79d8bf6;
 	padding: 0.5rem;
+	font-size: 2rem!important;
 	color: #39271e;
 }
 
@@ -193,7 +195,7 @@ a {
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
 
-	
+
 	.card {
 		padding: 3rem;
 	}
@@ -215,7 +217,7 @@ a {
 	.fontsize {
 		margin-top: -0.5rem;
 		font-weight: 500;
-		font-size: 1rem!important;
+		font-size: 0.7rem!important;
 	}
 
 	.email-small {
@@ -243,7 +245,7 @@ a {
 	.fontsize {
 
 		font-weight: 500;
-		font-size: 1rem!important;
+		font-size: 1.5rem!important;
 	}
 
   }
@@ -260,6 +262,12 @@ a {
 
 	.tituloServico {
 		font-size: 1.8rem;
+	}
+
+	.fontsize {
+
+		font-weight: 500;
+		font-size: 1.5rem!important;
 	}
 
 	
