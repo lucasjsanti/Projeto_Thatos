@@ -10,6 +10,7 @@ body {
 .navbar {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1rem;
+	font-weight: 600;
 	display: inline-flex!important;
 	cursor: pointer;
 	text-transform: uppercase;
