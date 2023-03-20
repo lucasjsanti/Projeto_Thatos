@@ -189,6 +189,29 @@ a {
 	justify-content: center!important;
 	align-items: center!important;
 	line-height: 2.3rem!important;
+	color: #000!important;
+}
+.faleConosco:hover {
+
+	text-decoration: underline!important;
+}
+
+.tel_comercial {
+	display: flex!important;
+	justify-content: center!important;
+	align-items: center!important;
+	line-height: 2.3rem!important;
+	color: #000!important;
+}
+
+#Remove_line {
+	text-decoration: none!important;
+}
+
+.text-email {
+
+	text-decoration: none!important;
+
 }
 
 /* Media Queries */
